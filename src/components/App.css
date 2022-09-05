@@ -9,15 +9,41 @@
     text-decoration: none;
 }
 .nav-ul{
+  /* position: fixed; */
   background-color: skyblue;
   padding: 5px;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+#customers {
+  /* position: fixed; */
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
 
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+button.buttons {
+  cursor: pointer;
+}
+.nav-ul.login{
+  text-align: right;
+}
 .Footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
@@ -62,6 +88,43 @@
 
 .App-link {
   color: #61dafb;
+}
+span {
+  color: red;
+  margin: 93px;
+  /* float: left; */
+  text-align: left;
+  display: block;
+  margin: -17px;
+  width: 300px;
+  padding: 1px;
+  /* border: 1px solid skyblue; */
+  margin-left: 518px;
+}
+.sucess {
+  color: green;
+  margin: 93px;
+  /* float: left; */
+  text-align: left;
+  display: block;
+  margin: -17px;
+  width: 300px;
+  padding: 1px;
+  /* border: 1px solid skyblue; */
+  margin-left: 518px;
+}
+.link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+input.search {
+  margin-bottom: 20px;
+  width: 40%;
+  padding: 9px;
+  font-weight: bolder;
+  font-size: initial;
 }
 
 @keyframes App-logo-spin {
